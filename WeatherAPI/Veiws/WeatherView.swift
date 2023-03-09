@@ -64,7 +64,7 @@ struct InfStackView: View {
             VStack (spacing: 7){
                 Image(systemName: "thermometer.medium")
                 Text("\(data.main.feelsLike.roundDouble())°")
-            }.font(.title)
+            }.font(.title2)
             VStack (spacing: 7) {
                 Image(systemName: "humidity.fill")
                 Text("\(data.main.humidity.roundDouble())%")
